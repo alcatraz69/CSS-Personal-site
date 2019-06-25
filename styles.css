@@ -20,6 +20,7 @@ h1{
     color: #00897d;
 }
 
+
 h2{
     color: #45b29a;
 }
@@ -62,6 +63,7 @@ p{
     line-height: 2;
 }
 
+
 .intro{
     width: 30%;
     margin: auto;
@@ -82,6 +84,7 @@ p{
     border-radius: 50%;
     box-shadow: 2px 5px 5px black; 
 }
+
 
 .chilli{
     width: 25%;
@@ -167,5 +170,89 @@ p{
     background-image: linear-gradient( bottom, #62f5c4, #239972);
     text-decoration: none;
   }
+
+  @media only screen and (max-width:360px) {
+    /*For mobile phones:*/
+   .mo{
+       width: 100%;
+   }
+    
+   .intro{
+    width: 100%;   
+    margin: auto;
+}
+
+.head3{
+    margin-bottom: 50px;
+    margin-top: 0;
+    font-size: 170%;
+    color: #00897d;
+}
+   .tcloud{
+    position: absolute;
+    right: 267px;
+    top: 40px;
+    width: 28%;
+}
+
+   .bcloud {
+    position: absolute;
+    left: 260px;
+    bottom: 167px;
+    width: 20%;
+}
+
+h1 {
+    color: #2e9271;
+    margin-top: 0%;
+    margin-bottom: 20px;
+    font-size: 136%;
+    width: 125%;
+    margin-inline-start: -19px;
+    margin-inline-end: 0px;
+}
+
+.skilpic{
+    width: 75%;
+    float: left;
+    margin-bottom: 30px;
+    margin-left: 28px;
+    margin-right: 28px;
+    border-radius: 50%;
+}
+p{
+    margin: 0 0 10px;
+    line-height: 2;
+    text-align: center;
+}
+.chilli{
+    width: 75%;
+    float: right;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-left: 30px;
+    padding-left: 0px;
+    margin-bottom: 30px;
+}
+h2{
+    color: #45b29a;
+    text-align: center;
+}
+
+.lasth3{
+    padding-bottom: 20px;
+    width: 102%;
+    font-size: 120%;
+}
+
+.low{
+    width: 200%;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    /* margin-right: 50px; */
+    margin-inline-start: -68px;
+    margin-inline-end: 0px;
+}
+}
 
 /*#66BFBF
