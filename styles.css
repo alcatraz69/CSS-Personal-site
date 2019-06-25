@@ -220,6 +220,16 @@ h1 {
     margin-right: 28px;
     border-radius: 50%;
 }
+
+hr{
+    border-style: dotted none none;
+    border-width: 5px;
+    height: 0;
+    width: 13%;
+    border-color: grey;
+    margin: 70px auto 50px;
+}
+
 p{
     margin: 0 0 10px;
     line-height: 2;
